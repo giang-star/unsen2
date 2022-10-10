@@ -1,0 +1,115 @@
+
+.banner{
+    margin-bottom: 42px;
+}
+.carousel-banner{
+    position: relative;
+}
+.carousel-banner .flickity-prev-next-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-banner .flickity-prev-next-button .flickity-button-icon{
+   
+    width: 12px;
+    height: 12px;
+    top: unset;
+    left: unset;
+    stroke: #fff;
+    fill: #fff;
+}
+.carousel-banner .flickity-prev-next-button:hover{
+    background-color: aquamarine;
+    transition: all 0.3s ease;
+}
+.banner-cell{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    width: 100%;
+}
+.bannwer-bg img{
+    height: auto;
+    width: 100%;
+}
+.keep-your{
+
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+ 
+}
+
+.button-header {
+    margin-top: 30px;
+}
+.button-header a{
+    display: flex;
+    width: 197px;
+    height: 43px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all 0.5s ease 0.3s;
+    
+   
+}
+.button-header a span{
+    font-size: 12px;
+    color: #fff;
+    font-family: "Poppins-SemiBold";
+    
+
+}
+.button-header a:hover{
+    background-color: aquamarine;
+
+    transition: all 0.5s ease 0.3s;
+    border: unset;
+
+}
+.carousel-banner .flickity-prev-next-button{
+    width: 46px;
+    height: 47px;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+.carousel-banner .flickity-page-dots{
+    bottom: 67px;
+}
+.carousel-banner .flickity-page-dots .dot{
+    background-color: #fff;
+}
+.carousel-banner .flickity-prev-next-button.previous{
+    left: 90px;
+}
+.carousel-banner .flickity-prev-next-button.next{
+    right: 90px;
+}
+.carousel-banner .flickity-page-dots .dot{
+    background-color: #000;
+    color: #fff;
+}
+.carousel-banner .flickity-page-dots .dot.is-selected{
+    border: 1px solid #fff;
+  
+    color: #000;
+
+}
+.carousel-banner .dot.is-selected .flickity-page-dots{
+}

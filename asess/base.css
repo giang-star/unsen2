@@ -1,0 +1,57 @@
+body{
+   margin: 0;
+   padding: 0;
+    font-family: "Poppins-Regular";
+}
+.container-body{
+    max-width: 1764px;
+    padding: 0 12px;
+    margin: 0 auto;
+    
+}
+.container{
+    max-width: 1464px;
+}
+.col-25{
+    max-width: 20%;
+}
+
+ @media(min-width:1800px){
+    
+    
+} 
+@media(min-width:1800px){
+    .pord-left{
+        width: 57.322%;
+    }
+    .pord-right{
+        width: 42.678%;
+    }
+}
+
+@font-face{
+    font-family: "Poppins-Regular";
+    src: url(../font/Poppins-Regular.ttf);
+
+}
+@font-face{
+    font-family: "CrimsonText-Italic";
+    src: url(../font/Crimson_Text/CrimsonText-Italic.ttf);
+
+}
+@font-face{
+    font-family: "Poppins-Medium";
+    src: url(../font/Poppins-Medium.ttf);
+  
+}
+
+@font-face{
+    font-family: "Poppins-SemiBold";
+    src: url(../font/Poppins-SemiBold.ttf);
+  
+}
+@font-face{
+    font-family: "Poppins-Light";
+    src: url(../font/Poppins-Light.ttf);
+  
+}

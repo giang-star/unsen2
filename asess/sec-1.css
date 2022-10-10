@@ -1,0 +1,160 @@
+.section-1{
+    margin-bottom: 75px;
+    
+}
+.section-1 .container-body{
+    max-width: 1770px;
+    margin: 0 auto;
+    padding: 0;
+ }
+ .section-1 .container-body .row>div{
+    padding:0 15px;
+ }
+ .section-1 .container-body .row{
+    margin: 0;
+ }
+ .section-1 .container-body .row .pord-left{
+    padding-right: 7.5px;
+    padding-left: 15px;
+ }
+ .section-1 .container-body .row .pord-right{
+    padding-left: 7.5px;
+    padding-right: 15px;
+ }
+ .section-1 .container-body .row .sec-sri{
+    padding-left: 0px;
+    padding-right: 7.5px;
+   
+}
+
+.section-1 .container-body .row .sri {
+    padding-right: 0px;
+    padding-left: 7.5px;
+}
+.t-sriths {
+    margin-bottom: 16px;
+}
+.t-sriths{
+    overflow: hidden;
+    transition: all 0.5 ease;
+}
+ .sec-srith{
+    overflow: hidden;
+    transition:all 0.5s ease 0s;
+    position: relative;
+
+
+}
+
+.sec-srith:hover img{
+    scale:1.2;
+    transition:all 0.5s ease 0s;
+
+    
+
+}
+.offcial{
+    position: absolute;
+    z-index: 5;
+    
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.title-off{
+    max-width: 500px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.offcial .offcial-text{
+    font-size: 50px;
+    font-family: "Poppins-Light";
+    
+    line-height: 62px;
+    font-weight: 300;
+    color: #ffff;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    
+}
+.cec-a{
+    position: relative;
+    overflow: hidden;
+    transition:all 0.5s ease 0s;
+}
+
+.cec-a:hover img{
+    scale: 1.1;
+    transition:all 0.5s ease 0s;
+
+}
+.offcial a{
+    width: 197px;
+    height: 43px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.5s ease 0s;
+    border: none;
+
+}
+.offcial a span{
+    font-size: 12px;
+    font-family: "Poppins-SemiBold";
+    color: #ffff;
+    text-transform: uppercase;
+}
+.offcial a:hover{
+    background-color: #ffff;
+    border: 1px solid #000000; 
+    transition: all 0.5s ease 0s;
+}
+.offcial a:hover span{
+    color: #000000;
+    transition: all 0.5s ease 0s;
+
+}
+.pro-name{
+    position: absolute;
+    bottom: 43px;
+    top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    left: 0;
+    right: 0;
+}
+.pro-name .pro-text{
+    font-size: 22px;
+    font-family: "Poppins-Regular";
+    text-decoration: none;
+    color: #000000;
+    line-height: 30px;
+}
+.pro-name .shop-now{
+    font-size: 13px;
+    font-family: "Poppins-Regular";
+    text-decoration: none;
+    color: #868686;
+    position: relative;
+    line-height: 24px;
+
+
+}
+.pro-name .shop-now::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    background-color: #bcbcbc;
+   height: 1px;
+   bottom: -6px;
+}

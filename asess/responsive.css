@@ -1,0 +1,340 @@
+/*  */
+@media(max-width:1919px){
+    /* header */
+    /* banner */
+ 
+    /* sec-1 */
+    .cec-a img{
+        height: auto;
+        width: 100%;
+    }
+    .sec-srith{
+        height: 100%;
+        width: 100%;
+    }
+    .sec-srith img{
+        height: auto;
+        width: 100%;
+        
+
+    }
+    /* sec-2 */
+    .pro-name{
+        bottom: 15px;
+    }
+   
+    
+    /* sec-2 */
+    .product-thumnail a img{
+        max-width: 100%;
+
+        height: auto;
+    }
+    
+    /* sec-4 */
+    .blog-thumb {
+        max-width: 100%;
+
+        height: 100%;
+    }
+    .blog-thumb img{
+        max-width: 100%;
+      
+        height: auto;
+    }
+  
+}
+@media( max-width:1400px){
+    .product-inner:hover .butont-quickview{
+        transform: translateX(-10px);
+        transition: all 0.5s ease;
+        opacity: 1;
+        visibility: visible;
+    
+    }
+    .product-inner:hover .butont-quickshop{
+        transform: translateX(10px);
+        transition: all 0.5s ease;
+        opacity: 1;
+        visibility: visible;
+    }
+    .blog-thumb {
+        max-width: 100%;
+        height: 100%;
+    }
+    .blog-thumb img{
+        max-width: 100%;
+        height: 100%;
+    }
+}   
+@media(max-width:1200px){
+    .section-1 .container-body .row .pord-left{
+        padding: 0 15px;
+        margin-bottom: 25px;
+    }
+    .section-1 .container-body .row .pord-right{
+        padding: 0 15px;
+        margin-bottom: 25px;
+    }
+    .section-1 .container-body .row .sec-sri{
+        padding-left:0 ;
+    }
+   
+}
+@media(max-width:1025px){
+    /* header */
+    .none{
+        display: none;
+    }
+    .adress{
+        display: none;
+    }
+    .list-menu{
+        display: none;
+    }
+    .nav-tablet{
+        display: flex;
+    }
+
+    /* banner */
+    .kep-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .kep-img img{
+        width: 80%;
+    }
+    .button-header{
+        margin-top: 10px;
+    }
+    .carousel-banner .flickity-page-dots{
+        bottom: 30px;
+    }
+    /* sec-1 */
+    .section-1 .container-body .row .pord-left{
+        padding: 0 15px;
+        margin-bottom: 30px;
+    }
+    .section-1 .container-body .row .pord-right{
+        padding: 0 15px;
+    }
+    .pro-name{
+        bottom: 60px;
+    }
+    .section-1 .container-body .row .sri{
+        padding-right: 0;
+    }
+    .section-1 .container-body .row  .sec3-right{
+        margin-bottom: 30px;
+    }
+    /* sec-4 */
+   
+}
+@media(max-width:991px){
+    /* header */
+    /* banner */
+    .banner{
+        margin-bottom: 35px;
+    }
+    .kep-img img{
+        width: 50%;
+    }
+    /* sec-1 */
+    .section-1{
+        margin-bottom: 35px;
+    }
+    .section-1 .container-body .row .pord-left{
+        margin-bottom: 20px;
+    }
+    .ele-header{
+        margin-bottom: 20px;
+    }
+    /* sec-2 */
+    .butons-select{
+        bottom: 60px;
+    }
+    .carousel-under .flickity-page-dots{
+        bottom: -10px;
+    }
+    .element-product{
+        margin-bottom: 40px;
+    }
+    /* sec-3 */
+    .section-1 .container-body .row .sec3-right{
+        margin-bottom: 20px;
+    }
+    .title-off{
+        max-width: 520px;
+    }
+    /* sec-4 */
+    .blog-thumb img{
+        height: auto;
+    }
+    .blog-title h3{
+        color: #000;
+        text-align: center;
+    }
+    .blog-title span{
+        color: #868686;
+    }
+    .blog-thumb{
+        border: 2px solid #e0e0e0;
+    }
+    .blog-title svg{
+        stroke: #868686;
+    }
+    .blog-title{
+        padding-bottom: 15px;
+        
+    }
+    /* sec--6 */
+    .lable-logo{
+        padding: 0;
+    }
+
+}
+@media(max-width:767px){
+    /* banner */
+    .kep-img img{
+        width: 25%;
+    }
+    .carousel-banner .flickity-prev-next-button{
+        display: none;
+    }
+    .button-header a{
+        width: 150px;
+        height: 35px;
+    }
+    /* sec-1 */
+    .offcial .offcial-text{
+        font-size: 40px;
+    }
+    .pro-name{
+        bottom: 25px;
+    }
+    .pro-name .pro-text{
+        font-size: 20px;
+    }
+    /* sec-4 */
+    .blog-thumb img{
+        height: 100%;
+    }
+    .blog-title h3{
+        color: #fff;
+        text-align: center;
+    }
+    .blog-title span{
+        color: #fff;
+    }
+    .blog-thumb{
+        border: unset
+    }
+    .blog-title svg{
+        stroke: #fff;
+    }
+    .blog-title{
+        padding-bottom: 15px;
+        
+    }
+    /* sec-5 */
+    .testimoni{
+        padding: 30px 0;
+    }
+}
+@media(max-width:576px){
+    .section-1 .container-body .row .sec-sri{
+        padding: 0 ;
+        margin-bottom: 15px;
+    }
+    .section-1 .container-body .row .sri{
+        padding: 0;
+    }
+    .carousel-under .flickity-page-dots{
+        bottom: -20px;
+    }
+    .section-1 .container-body .row .sec-sris{
+        padding: 0;
+        margin-bottom: 15px;
+    }
+    .section-1 .container-body .row .sris{
+        padding: 0;
+    }
+    .footer-r{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .list-pay{
+        justify-content: center;
+    }
+    .sunen{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width:480px){
+    /* header */
+    .header{
+        padding: 0;
+    }
+    .heart{
+        display: none;
+    }
+    .user{
+        display: none;
+    }
+    .carousel-banner .flickity-page-dots{
+        bottom: 5px;
+    }
+    /* banner */
+    .kep-img img{
+        width: 15%;
+    }
+    .button-header a{
+        width: 100px;
+        height: 30px;
+    }
+    /* sec-1 */
+    .pro-name{
+        bottom: 15px;
+    }
+    .pro-name .pro-text{
+        font-size: 18px;
+    }
+    .title-off{
+        margin-bottom: 10px;
+    }
+    .offcial .offcial-text{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    /* sec-2 */
+    .carousel-under .flickity-page-dots{
+        bottom: -25px;
+    }
+    .element-product{
+        margin-bottom: 60px;
+    }
+    .title h3{
+        font-size: 25px;
+    }
+    /* sec-5 */
+    .carousel-testimoi .flickity-prev-next-button .flickity-button-icon{
+        top: unset;
+    }
+    .blog-auther{
+        margin-bottom: 18px;
+    }
+    /* footer */
+    .footer-r{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .list-pay{
+        justify-content: center;
+    }
+    .sunen{
+        display: flex;
+        justify-content: center;
+    }
+}
